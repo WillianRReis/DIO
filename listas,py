@@ -1,0 +1,15 @@
+frutas = ['banana', 'maça', 'limão', 'laranja']
+print (frutas)
+
+frutas = []
+print (frutas)
+
+letras = list('python')
+print (letras)
+
+numeros = list(range(10))
+print (numeros)
+
+carro = ['ferrari', 'f8', 4299000, 2450, 'SP', True]
+print (carro)
+
