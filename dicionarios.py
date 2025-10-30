@@ -11,7 +11,9 @@ for chave, valor in contatos.items():
 print (contatos.get ('Carlos', 'Não Existe'))
 
 nomes = contatos.keys ()
+cidades = contatos.keys ()
 print (nomes)
+print (cidades)
 
 
 dados = {'nome':'Ian', 'idade': 20, 'cidade':'BSB'}
@@ -22,4 +24,8 @@ removido = contatos.pop ('Joao')
 print (contatos)
 print (removido)
 print (contatos.values())
+
+inclusao = {'nome': 'Andre', 'idade': 44, 'cidade': 'POA'}
+contatos.update (inclusao)
+print (contatos)
 
